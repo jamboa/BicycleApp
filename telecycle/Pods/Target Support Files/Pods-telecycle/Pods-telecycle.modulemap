@@ -1,0 +1,6 @@
+framework module Pods_telecycle {
+  umbrella header "Pods-telecycle-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44C9EEDAE1BBD4FEDF5F34C2 /* Pods_telecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683A575984798E30D0F2713B /* Pods_telecycle.framework */; };
+		4DB0156D1FEA26FD000E6C2F /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0156B1FEA26FD000E6C2F /* iTunesArtwork@2x */; };
+		4DB0156E1FEA26FD000E6C2F /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0156C1FEA26FD000E6C2F /* iTunesArtwork */; };
+		881C777F1FDCB13500000A78 /* GeoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C777E1FDCB13500000A78 /* GeoData.swift */; };
+		8845C3D81FDBF817009E4D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845C3D71FDBF817009E4D41 /* AppDelegate.swift */; };
+		8845C3DA1FDBF817009E4D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845C3D91FDBF817009E4D41 /* ViewController.swift */; };
+		8845C3DD1FDBF817009E4D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8845C3DB1FDBF817009E4D41 /* Main.storyboard */; };
+		8845C3E01FDBF817009E4D41 /* telecycle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8845C3DE1FDBF817009E4D41 /* telecycle.xcdatamodeld */; };
+		8845C3E21FDBF817009E4D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8845C3E11FDBF817009E4D41 /* Assets.xcassets */; };
+		8845C3E51FDBF817009E4D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8845C3E31FDBF817009E4D41 /* LaunchScreen.storyboard */; };
+		8845C3F01FDBF818009E4D41 /* telecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845C3EF1FDBF818009E4D41 /* telecycleTests.swift */; };
+		8845C3FB1FDBF818009E4D41 /* telecycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845C3FA1FDBF818009E4D41 /* telecycleUITests.swift */; };
+		88AF777E2027405600DA4CE0 /* SpeedMeterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF777D2027405600DA4CE0 /* SpeedMeterViewModel.swift */; };
+		88BFF69C1FEE852A00765721 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BFF69B1FEE852A00765721 /* Speaker.swift */; };
+		88DDA7381FEBFE480007CB32 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DDA7371FEBFE480007CB32 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8845C3EC1FDBF818009E4D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8845C3CC1FDBF817009E4D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8845C3D31FDBF817009E4D41;
+			remoteInfo = telecycle;
+		};
+		8845C3F71FDBF818009E4D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8845C3CC1FDBF817009E4D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8845C3D31FDBF817009E4D41;
+			remoteInfo = telecycle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F40FCEE0C0D698DFA7AD2D5 /* Pods-telecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-telecycle/Pods-telecycle.release.xcconfig"; sourceTree = "<group>"; };
+		4DB0156B1FEA26FD000E6C2F /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "telecycle/iTunesArtwork@2x"; sourceTree = "<group>"; };
+		4DB0156C1FEA26FD000E6C2F /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = telecycle/iTunesArtwork; sourceTree = "<group>"; };
+		683A575984798E30D0F2713B /* Pods_telecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_telecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		881C777E1FDCB13500000A78 /* GeoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoData.swift; sourceTree = "<group>"; };
+		881C77811FDCB5F100000A78 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8845C3D41FDBF817009E4D41 /* telecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8845C3D71FDBF817009E4D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8845C3D91FDBF817009E4D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8845C3DC1FDBF817009E4D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8845C3DF1FDBF817009E4D41 /* telecycle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = telecycle.xcdatamodel; sourceTree = "<group>"; };
+		8845C3E11FDBF817009E4D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8845C3E41FDBF817009E4D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8845C3E61FDBF817009E4D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8845C3EB1FDBF818009E4D41 /* telecycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = telecycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8845C3EF1FDBF818009E4D41 /* telecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telecycleTests.swift; sourceTree = "<group>"; };
+		8845C3F11FDBF818009E4D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8845C3F61FDBF818009E4D41 /* telecycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = telecycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8845C3FA1FDBF818009E4D41 /* telecycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telecycleUITests.swift; sourceTree = "<group>"; };
+		8845C3FC1FDBF818009E4D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88AF777D2027405600DA4CE0 /* SpeedMeterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeterViewModel.swift; sourceTree = "<group>"; };
+		88BFF69B1FEE852A00765721 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		88DDA7371FEBFE480007CB32 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B18280C6040BAEDB4D70AA3A /* Pods-telecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-telecycle/Pods-telecycle.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8845C3D11FDBF817009E4D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DDA7381FEBFE480007CB32 /* AVFoundation.framework in Frameworks */,
+				44C9EEDAE1BBD4FEDF5F34C2 /* Pods_telecycle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8845C3E81FDBF818009E4D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8845C3F31FDBF818009E4D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3606F555A486E1277C5620D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B18280C6040BAEDB4D70AA3A /* Pods-telecycle.debug.xcconfig */,
+				2F40FCEE0C0D698DFA7AD2D5 /* Pods-telecycle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		881C77801FDCB5F100000A78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88DDA7371FEBFE480007CB32 /* AVFoundation.framework */,
+				881C77811FDCB5F100000A78 /* CoreLocation.framework */,
+				683A575984798E30D0F2713B /* Pods_telecycle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8845C3CB1FDBF817009E4D41 = {
+			isa = PBXGroup;
+			children = (
+				4DB0156B1FEA26FD000E6C2F /* iTunesArtwork@2x */,
+				4DB0156C1FEA26FD000E6C2F /* iTunesArtwork */,
+				8845C3D61FDBF817009E4D41 /* telecycle */,
+				8845C3EE1FDBF818009E4D41 /* telecycleTests */,
+				8845C3F91FDBF818009E4D41 /* telecycleUITests */,
+				8845C3D51FDBF817009E4D41 /* Products */,
+				881C77801FDCB5F100000A78 /* Frameworks */,
+				3606F555A486E1277C5620D0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8845C3D51FDBF817009E4D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8845C3D41FDBF817009E4D41 /* telecycle.app */,
+				8845C3EB1FDBF818009E4D41 /* telecycleTests.xctest */,
+				8845C3F61FDBF818009E4D41 /* telecycleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8845C3D61FDBF817009E4D41 /* telecycle */ = {
+			isa = PBXGroup;
+			children = (
+				8845C3D71FDBF817009E4D41 /* AppDelegate.swift */,
+				8845C3D91FDBF817009E4D41 /* ViewController.swift */,
+				8845C3DB1FDBF817009E4D41 /* Main.storyboard */,
+				8845C3E11FDBF817009E4D41 /* Assets.xcassets */,
+				8845C3E31FDBF817009E4D41 /* LaunchScreen.storyboard */,
+				8845C3E61FDBF817009E4D41 /* Info.plist */,
+				8845C3DE1FDBF817009E4D41 /* telecycle.xcdatamodeld */,
+				881C777E1FDCB13500000A78 /* GeoData.swift */,
+				88BFF69B1FEE852A00765721 /* Speaker.swift */,
+				88AF777D2027405600DA4CE0 /* SpeedMeterViewModel.swift */,
+			);
+			path = telecycle;
+			sourceTree = "<group>";
+		};
+		8845C3EE1FDBF818009E4D41 /* telecycleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8845C3EF1FDBF818009E4D41 /* telecycleTests.swift */,
+				8845C3F11FDBF818009E4D41 /* Info.plist */,
+			);
+			path = telecycleTests;
+			sourceTree = "<group>";
+		};
+		8845C3F91FDBF818009E4D41 /* telecycleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8845C3FA1FDBF818009E4D41 /* telecycleUITests.swift */,
+				8845C3FC1FDBF818009E4D41 /* Info.plist */,
+			);
+			path = telecycleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8845C3D31FDBF817009E4D41 /* telecycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8845C3FF1FDBF818009E4D41 /* Build configuration list for PBXNativeTarget "telecycle" */;
+			buildPhases = (
+				EC24297F464C244BF694D528 /* [CP] Check Pods Manifest.lock */,
+				8845C3D01FDBF817009E4D41 /* Sources */,
+				8845C3D11FDBF817009E4D41 /* Frameworks */,
+				8845C3D21FDBF817009E4D41 /* Resources */,
+				E8A7D5A7E8AC09E3F1CB0E4D /* [CP] Embed Pods Frameworks */,
+				095683E33E8B933DCC03FDEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = telecycle;
+			productName = telecycle;
+			productReference = 8845C3D41FDBF817009E4D41 /* telecycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8845C3EA1FDBF818009E4D41 /* telecycleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8845C4021FDBF818009E4D41 /* Build configuration list for PBXNativeTarget "telecycleTests" */;
+			buildPhases = (
+				8845C3E71FDBF818009E4D41 /* Sources */,
+				8845C3E81FDBF818009E4D41 /* Frameworks */,
+				8845C3E91FDBF818009E4D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8845C3ED1FDBF818009E4D41 /* PBXTargetDependency */,
+			);
+			name = telecycleTests;
+			productName = telecycleTests;
+			productReference = 8845C3EB1FDBF818009E4D41 /* telecycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8845C3F51FDBF818009E4D41 /* telecycleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8845C4051FDBF818009E4D41 /* Build configuration list for PBXNativeTarget "telecycleUITests" */;
+			buildPhases = (
+				8845C3F21FDBF818009E4D41 /* Sources */,
+				8845C3F31FDBF818009E4D41 /* Frameworks */,
+				8845C3F41FDBF818009E4D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8845C3F81FDBF818009E4D41 /* PBXTargetDependency */,
+			);
+			name = telecycleUITests;
+			productName = telecycleUITests;
+			productReference = 8845C3F61FDBF818009E4D41 /* telecycleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8845C3CC1FDBF817009E4D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = yoojonghyun;
+				TargetAttributes = {
+					8845C3D31FDBF817009E4D41 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					8845C3EA1FDBF818009E4D41 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8845C3D31FDBF817009E4D41;
+					};
+					8845C3F51FDBF818009E4D41 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8845C3D31FDBF817009E4D41;
+					};
+				};
+			};
+			buildConfigurationList = 8845C3CF1FDBF817009E4D41 /* Build configuration list for PBXProject "telecycle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8845C3CB1FDBF817009E4D41;
+			productRefGroup = 8845C3D51FDBF817009E4D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8845C3D31FDBF817009E4D41 /* telecycle */,
+				8845C3EA1FDBF818009E4D41 /* telecycleTests */,
+				8845C3F51FDBF818009E4D41 /* telecycleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8845C3D21FDBF817009E4D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB0156D1FEA26FD000E6C2F /* iTunesArtwork@2x in Resources */,
+				8845C3E51FDBF817009E4D41 /* LaunchScreen.storyboard in Resources */,
+				8845C3E21FDBF817009E4D41 /* Assets.xcassets in Resources */,
+				4DB0156E1FEA26FD000E6C2F /* iTunesArtwork in Resources */,
+				8845C3DD1FDBF817009E4D41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8845C3E91FDBF818009E4D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8845C3F41FDBF818009E4D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		095683E33E8B933DCC03FDEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telecycle/Pods-telecycle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A7D5A7E8AC09E3F1CB0E4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-telecycle/Pods-telecycle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telecycle/Pods-telecycle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC24297F464C244BF694D528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-telecycle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8845C3D01FDBF817009E4D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AF777E2027405600DA4CE0 /* SpeedMeterViewModel.swift in Sources */,
+				8845C3DA1FDBF817009E4D41 /* ViewController.swift in Sources */,
+				88BFF69C1FEE852A00765721 /* Speaker.swift in Sources */,
+				881C777F1FDCB13500000A78 /* GeoData.swift in Sources */,
+				8845C3D81FDBF817009E4D41 /* AppDelegate.swift in Sources */,
+				8845C3E01FDBF817009E4D41 /* telecycle.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8845C3E71FDBF818009E4D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8845C3F01FDBF818009E4D41 /* telecycleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8845C3F21FDBF818009E4D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8845C3FB1FDBF818009E4D41 /* telecycleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8845C3ED1FDBF818009E4D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8845C3D31FDBF817009E4D41 /* telecycle */;
+			targetProxy = 8845C3EC1FDBF818009E4D41 /* PBXContainerItemProxy */;
+		};
+		8845C3F81FDBF818009E4D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8845C3D31FDBF817009E4D41 /* telecycle */;
+			targetProxy = 8845C3F71FDBF818009E4D41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8845C3DB1FDBF817009E4D41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8845C3DC1FDBF817009E4D41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8845C3E31FDBF817009E4D41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8845C3E41FDBF817009E4D41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8845C3FD1FDBF818009E4D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8845C3FE1FDBF818009E4D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8845C4001FDBF818009E4D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18280C6040BAEDB4D70AA3A /* Pods-telecycle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N458ZX245;
+				INFOPLIST_FILE = telecycle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ch11.ljh0422.telecycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8845C4011FDBF818009E4D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F40FCEE0C0D698DFA7AD2D5 /* Pods-telecycle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N458ZX245;
+				INFOPLIST_FILE = telecycle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ch11.ljh0422.telecycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8845C4031FDBF818009E4D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNK5Z868Q8;
+				INFOPLIST_FILE = telecycleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.jamboa.telecycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telecycle.app/telecycle";
+			};
+			name = Debug;
+		};
+		8845C4041FDBF818009E4D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNK5Z868Q8;
+				INFOPLIST_FILE = telecycleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.jamboa.telecycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telecycle.app/telecycle";
+			};
+			name = Release;
+		};
+		8845C4061FDBF818009E4D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNK5Z868Q8;
+				INFOPLIST_FILE = telecycleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.jamboa.telecycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = telecycle;
+			};
+			name = Debug;
+		};
+		8845C4071FDBF818009E4D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SNK5Z868Q8;
+				INFOPLIST_FILE = telecycleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.jamboa.telecycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = telecycle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8845C3CF1FDBF817009E4D41 /* Build configuration list for PBXProject "telecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8845C3FD1FDBF818009E4D41 /* Debug */,
+				8845C3FE1FDBF818009E4D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8845C3FF1FDBF818009E4D41 /* Build configuration list for PBXNativeTarget "telecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8845C4001FDBF818009E4D41 /* Debug */,
+				8845C4011FDBF818009E4D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8845C4021FDBF818009E4D41 /* Build configuration list for PBXNativeTarget "telecycleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8845C4031FDBF818009E4D41 /* Debug */,
+				8845C4041FDBF818009E4D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8845C4051FDBF818009E4D41 /* Build configuration list for PBXNativeTarget "telecycleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8845C4061FDBF818009E4D41 /* Debug */,
+				8845C4071FDBF818009E4D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8845C3DE1FDBF817009E4D41 /* telecycle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8845C3DF1FDBF817009E4D41 /* telecycle.xcdatamodel */,
+			);
+			currentVersion = 8845C3DF1FDBF817009E4D41 /* telecycle.xcdatamodel */;
+			path = telecycle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8845C3CC1FDBF817009E4D41 /* Project object */;
+}
