@@ -11,14 +11,25 @@ import CoreLocation
 import RxSwift
 import RxCocoa
 
+protocol ViewModelProtocol {
+    
+}
+
+struct RidingData {
+    var speed : Int
+    var distance : Int
+    var timeInterval : TimeInterval
+    
+    init(speed: Int, distance: Int, timeInterval : TimeInterval) {
+        self.speed = speed;
+        self.distance = distance;
+        self.timeInterval = timeInterval;
+    }
+}
+
 class SpeedMeterViewModel : GeoDataDelegate {
     
-    static let sharedInstance: SpeedMeterViewModel = SpeedMeterViewModel()
-    
-    let speedVariable : Variable<Int> = Variable(0)
-    let distanceVariable : Variable<Int> = Variable(0)
-    let timeIntervalVariable : Variable<TimeInterval> = Variable(Date().timeIntervalSinceNow)
-    
+    let ridingDataVariable : Variable<RidingData> = Variable(RidingData(speed: 0, distance :0, timeInterval : Date().timeIntervalSinceNow))
     
     init() {
         GeoData.sharedInstance.delegate = self
@@ -26,11 +37,11 @@ class SpeedMeterViewModel : GeoDataDelegate {
     var startDate : Date = Date()
     
     func tracingLocation(currentLocation: CLLocation) {
-        speedVariable.value = Int(GeoData.sharedInstance.getSpeed())
-        distanceVariable.value = Int(GeoData.sharedInstance.getDistance())
-        timeIntervalVariable.value = startDate.timeIntervalSinceNow
-        
-        Speaker.shareInstance.speakIfNeeded(speed: speedVariable.value, distance: distanceVariable.value)
+        let speed = Int(GeoData.sharedInstance.getSpeed())
+        let distance = Int(GeoData.sharedInstance.getDistance())
+        let timeInterval = startDate.timeIntervalSinceNow
+        ridingDataVariable.value = RidingData(speed: speed, distance :distance, timeInterval : timeInterval)
+        Speaker.shareInstance.speakIfNeeded(speed: speed, distance: distance)
         
     }
     

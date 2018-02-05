@@ -21,6 +21,7 @@ class ViewController: UIViewController  {
     @IBOutlet weak var oneButton: UIButton!
     
     var isTracing = false
+    public var viewModel : SpeedMeterViewModel?
     let disposeBag = DisposeBag()
     
     @IBAction func onClicked(_ sender: Any) {
@@ -53,41 +54,33 @@ class ViewController: UIViewController  {
     }
     
     func setup() {
-        let speedMeterViewModel = SpeedMeterViewModel.sharedInstance
+        guard let viewModelUnwrapped = viewModel else {
+            return
+        }
         
-        speedMeterViewModel.speedVariable.asObservable()
-            .subscribe({[weak self] speedVariable in
-                guard let speed = speedVariable.element else {  return    }
-                let speedString = String(describing: speed)
-                self?.speedLabel.text = speedString
-            })
-            .disposed(by: disposeBag)
-        
-        speedMeterViewModel.distanceVariable.asObservable()
-            .subscribe({[weak self] distanceVariable in
-                guard let distance = distanceVariable.element else {  return     }
-                let distanceString = String(describing: distance) + "m"
-                self?.distLabel.text = distanceString
-            })
-            .disposed(by: disposeBag)
-        
-        speedMeterViewModel.timeIntervalVariable.asObservable()
-            .subscribe({[weak self] intervalVariable in
-                guard let interval = intervalVariable.element else {  return     }
-                var sec: Int = Int(0 - interval)
-                var min: Int = 0
-                if sec >= 60 {
-                    min = sec / 60
-                    sec = sec - min * 60
-                }
-                var hour: Int = 0
-                if min >= 60 {
-                    hour = min / 60
-                    min = min - hour * 60
-                }
-                self?.timeLabel.text = String(hour) + "h " + String(min) + "m " + String(sec) + "s"
-            })
-            .disposed(by: disposeBag)
+        viewModelUnwrapped.ridingDataVariable.asObservable()
+        .subscribe({[weak self] ridingDataEvent in
+            guard let ridingData = ridingDataEvent.element else { return }
+            let speedString = String(describing : ridingData.speed)
+            self?.speedLabel.text = speedString
+            
+            let distanceString = String(describing : ridingData.distance)
+            self?.distLabel.text = distanceString
+            
+            var sec: Int = Int(0 - ridingData.timeInterval)
+            var min: Int = 0
+            if sec >= 60 {
+                min = sec / 60
+                sec = sec - min * 60
+            }
+            var hour: Int = 0
+            if min >= 60 {
+                hour = min / 60
+                min = min - hour * 60
+            }
+            self?.timeLabel.text = String(hour) + "h " + String(min) + "m " + String(sec) + "s"
+        })
+        .disposed(by: disposeBag)
     }
 
 }
