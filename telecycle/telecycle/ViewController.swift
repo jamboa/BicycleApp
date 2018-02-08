@@ -59,6 +59,7 @@ class ViewController: UIViewController  {
         }
         
         viewModelUnwrapped.ridingDataVariable.asObservable()
+        .observeOn(MainScheduler.instance)
         .subscribe({[weak self] ridingDataEvent in
             guard let ridingData = ridingDataEvent.element else { return }
             let speedString = String(describing : ridingData.speed)
@@ -79,6 +80,7 @@ class ViewController: UIViewController  {
                 min = min - hour * 60
             }
             self?.timeLabel.text = String(hour) + "h " + String(min) + "m " + String(sec) + "s"
+            
         })
         .disposed(by: disposeBag)
     }
