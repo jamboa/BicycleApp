@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2795F81E255A02B592285239 /* Pods_telecycleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEC2A00BC665FDF71F2F368 /* Pods_telecycleTests.framework */; };
 		44C9EEDAE1BBD4FEDF5F34C2 /* Pods_telecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683A575984798E30D0F2713B /* Pods_telecycle.framework */; };
 		4DB0156D1FEA26FD000E6C2F /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0156B1FEA26FD000E6C2F /* iTunesArtwork@2x */; };
 		4DB0156E1FEA26FD000E6C2F /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0156C1FEA26FD000E6C2F /* iTunesArtwork */; };
+		4E9BE41ADDAC502CE551944B /* Pods_telecycleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B961CB858C1D012E85B1E072 /* Pods_telecycleUITests.framework */; };
 		881C777F1FDCB13500000A78 /* GeoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C777E1FDCB13500000A78 /* GeoData.swift */; };
 		8845C3D81FDBF817009E4D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845C3D71FDBF817009E4D41 /* AppDelegate.swift */; };
 		8845C3DA1FDBF817009E4D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845C3D91FDBF817009E4D41 /* ViewController.swift */; };
@@ -42,9 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FEC2A00BC665FDF71F2F368 /* Pods_telecycleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_telecycleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F40FCEE0C0D698DFA7AD2D5 /* Pods-telecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-telecycle/Pods-telecycle.release.xcconfig"; sourceTree = "<group>"; };
 		4DB0156B1FEA26FD000E6C2F /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "telecycle/iTunesArtwork@2x"; sourceTree = "<group>"; };
 		4DB0156C1FEA26FD000E6C2F /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = telecycle/iTunesArtwork; sourceTree = "<group>"; };
+		515B291667A4D68BBCFECB39 /* Pods-telecycleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-telecycleTests/Pods-telecycleTests.release.xcconfig"; sourceTree = "<group>"; };
+		599961A2CFF70420E5C27E14 /* Pods-telecycleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-telecycleUITests/Pods-telecycleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D267582C7F00B233EA0C56A /* Pods-telecycleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-telecycleUITests/Pods-telecycleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		683A575984798E30D0F2713B /* Pods_telecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_telecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		881C777E1FDCB13500000A78 /* GeoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoData.swift; sourceTree = "<group>"; };
 		881C77811FDCB5F100000A78 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -66,6 +72,8 @@
 		88BFF69B1FEE852A00765721 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 		88DDA7371FEBFE480007CB32 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B18280C6040BAEDB4D70AA3A /* Pods-telecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-telecycle/Pods-telecycle.debug.xcconfig"; sourceTree = "<group>"; };
+		B69285ED8E9E64FBC10A0003 /* Pods-telecycleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-telecycleTests/Pods-telecycleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B961CB858C1D012E85B1E072 /* Pods_telecycleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_telecycleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2795F81E255A02B592285239 /* Pods_telecycleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9BE41ADDAC502CE551944B /* Pods_telecycleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +110,10 @@
 			children = (
 				B18280C6040BAEDB4D70AA3A /* Pods-telecycle.debug.xcconfig */,
 				2F40FCEE0C0D698DFA7AD2D5 /* Pods-telecycle.release.xcconfig */,
+				B69285ED8E9E64FBC10A0003 /* Pods-telecycleTests.debug.xcconfig */,
+				515B291667A4D68BBCFECB39 /* Pods-telecycleTests.release.xcconfig */,
+				599961A2CFF70420E5C27E14 /* Pods-telecycleUITests.debug.xcconfig */,
+				5D267582C7F00B233EA0C56A /* Pods-telecycleUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -110,6 +124,8 @@
 				88DDA7371FEBFE480007CB32 /* AVFoundation.framework */,
 				881C77811FDCB5F100000A78 /* CoreLocation.framework */,
 				683A575984798E30D0F2713B /* Pods_telecycle.framework */,
+				1FEC2A00BC665FDF71F2F368 /* Pods_telecycleTests.framework */,
+				B961CB858C1D012E85B1E072 /* Pods_telecycleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8845C4021FDBF818009E4D41 /* Build configuration list for PBXNativeTarget "telecycleTests" */;
 			buildPhases = (
+				FD79E786D1A89BC192B4219D /* [CP] Check Pods Manifest.lock */,
 				8845C3E71FDBF818009E4D41 /* Sources */,
 				8845C3E81FDBF818009E4D41 /* Frameworks */,
 				8845C3E91FDBF818009E4D41 /* Resources */,
+				33E03C14BFF1549D75D0DA53 /* [CP] Embed Pods Frameworks */,
+				215DD356F462C78226905372 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8845C4051FDBF818009E4D41 /* Build configuration list for PBXNativeTarget "telecycleUITests" */;
 			buildPhases = (
+				640EDE16B764D7FD73FFC27D /* [CP] Check Pods Manifest.lock */,
 				8845C3F21FDBF818009E4D41 /* Sources */,
 				8845C3F31FDBF818009E4D41 /* Frameworks */,
 				8845C3F41FDBF818009E4D41 /* Resources */,
+				4FD9B98579365E698935FF67 /* [CP] Embed Pods Frameworks */,
+				E188DAEF64AB1AFEF9460991 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,6 +350,84 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telecycle/Pods-telecycle-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		215DD356F462C78226905372 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telecycleTests/Pods-telecycleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33E03C14BFF1549D75D0DA53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telecycleTests/Pods-telecycleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FD9B98579365E698935FF67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telecycleUITests/Pods-telecycleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		640EDE16B764D7FD73FFC27D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-telecycleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E188DAEF64AB1AFEF9460991 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telecycleUITests/Pods-telecycleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E8A7D5A7E8AC09E3F1CB0E4D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,6 +462,24 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-telecycle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD79E786D1A89BC192B4219D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-telecycleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -549,10 +667,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4N458ZX245;
+				DEVELOPMENT_TEAM = C6PTPK3M7B;
 				INFOPLIST_FILE = telecycle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ch11.ljh0422.telecycle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ch11.knine.telecycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -566,10 +684,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4N458ZX245;
+				DEVELOPMENT_TEAM = C6PTPK3M7B;
 				INFOPLIST_FILE = telecycle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ch11.ljh0422.telecycle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ch11.knine.telecycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -578,11 +696,12 @@
 		};
 		8845C4031FDBF818009E4D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69285ED8E9E64FBC10A0003 /* Pods-telecycleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SNK5Z868Q8;
+				DEVELOPMENT_TEAM = C6PTPK3M7B;
 				INFOPLIST_FILE = telecycleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.jamboa.telecycleTests;
@@ -595,11 +714,12 @@
 		};
 		8845C4041FDBF818009E4D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515B291667A4D68BBCFECB39 /* Pods-telecycleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SNK5Z868Q8;
+				DEVELOPMENT_TEAM = C6PTPK3M7B;
 				INFOPLIST_FILE = telecycleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.jamboa.telecycleTests;
@@ -612,10 +732,11 @@
 		};
 		8845C4061FDBF818009E4D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599961A2CFF70420E5C27E14 /* Pods-telecycleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SNK5Z868Q8;
+				DEVELOPMENT_TEAM = C6PTPK3M7B;
 				INFOPLIST_FILE = telecycleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.jamboa.telecycleUITests;
@@ -628,10 +749,11 @@
 		};
 		8845C4071FDBF818009E4D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D267582C7F00B233EA0C56A /* Pods-telecycleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SNK5Z868Q8;
+				DEVELOPMENT_TEAM = C6PTPK3M7B;
 				INFOPLIST_FILE = telecycleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.jamboa.telecycleUITests;

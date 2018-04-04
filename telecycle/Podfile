@@ -9,5 +9,13 @@ target 'telecycle' do
   pod 'RxCocoa'
   pod 'Alamofire'
 
+  target 'telecycleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 
+  target 'telecycleUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 end
