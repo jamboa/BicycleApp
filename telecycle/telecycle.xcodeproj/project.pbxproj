@@ -11,6 +11,7 @@
 		44C9EEDAE1BBD4FEDF5F34C2 /* Pods_telecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683A575984798E30D0F2713B /* Pods_telecycle.framework */; };
 		4DB0156D1FEA26FD000E6C2F /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0156B1FEA26FD000E6C2F /* iTunesArtwork@2x */; };
 		4DB0156E1FEA26FD000E6C2F /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0156C1FEA26FD000E6C2F /* iTunesArtwork */; };
+		4DB4329B2088BC4D005107B9 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4329A2088BC4D005107B9 /* StopWatch.swift */; };
 		4E9BE41ADDAC502CE551944B /* Pods_telecycleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B961CB858C1D012E85B1E072 /* Pods_telecycleUITests.framework */; };
 		881C777F1FDCB13500000A78 /* GeoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C777E1FDCB13500000A78 /* GeoData.swift */; };
 		8845C3D81FDBF817009E4D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845C3D71FDBF817009E4D41 /* AppDelegate.swift */; };
@@ -48,6 +49,7 @@
 		2F40FCEE0C0D698DFA7AD2D5 /* Pods-telecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-telecycle/Pods-telecycle.release.xcconfig"; sourceTree = "<group>"; };
 		4DB0156B1FEA26FD000E6C2F /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "telecycle/iTunesArtwork@2x"; sourceTree = "<group>"; };
 		4DB0156C1FEA26FD000E6C2F /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = telecycle/iTunesArtwork; sourceTree = "<group>"; };
+		4DB4329A2088BC4D005107B9 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		515B291667A4D68BBCFECB39 /* Pods-telecycleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-telecycleTests/Pods-telecycleTests.release.xcconfig"; sourceTree = "<group>"; };
 		599961A2CFF70420E5C27E14 /* Pods-telecycleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-telecycleUITests/Pods-telecycleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D267582C7F00B233EA0C56A /* Pods-telecycleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telecycleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-telecycleUITests/Pods-telecycleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				881C777E1FDCB13500000A78 /* GeoData.swift */,
 				88BFF69B1FEE852A00765721 /* Speaker.swift */,
 				88AF777D2027405600DA4CE0 /* SpeedMeterViewModel.swift */,
+				4DB4329A2088BC4D005107B9 /* StopWatch.swift */,
 			);
 			path = telecycle;
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 				88BFF69C1FEE852A00765721 /* Speaker.swift in Sources */,
 				881C777F1FDCB13500000A78 /* GeoData.swift in Sources */,
 				8845C3D81FDBF817009E4D41 /* AppDelegate.swift in Sources */,
+				4DB4329B2088BC4D005107B9 /* StopWatch.swift in Sources */,
 				8845C3E01FDBF817009E4D41 /* telecycle.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
